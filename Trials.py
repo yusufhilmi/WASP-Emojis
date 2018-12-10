@@ -1,52 +1,68 @@
-from PyQt4 import QtCore, QtGui
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
-import os, sys
-import cv2
-from PIL.ImageQt import ImageQt
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel
+from PyQt5.QtGui import QIcon, QPixmap
 
 
-class GuiCakep(QtGui.QWidget):
-
-    global label1, label2
+class Emojis(QWidget):
 
     def __init__(self):
-        super(GuiCakep, self).__init__()
+        super().__init__()
+        self.title = 'PyQt5 image - pythonspot.com'
+        self.left = 50
+        self.top = 50
+        self.width = 640
+        self.height = 480
         self.initUI()
 
-
     def initUI(self):
-        self.setGeometry(100, 100, 1000, 600)
-        self.setWindowTitle('Single Browse')
+        self.setWindowTitle(self.title)
+        self.setGeometry(self.left, self.top, self.width, self.height)
+        poop_label = QLabel(self)
 
-        self.label1 = QtGui.QLabel(self)
-        self.label1.setFrameShape(QtGui.QFrame.Box)
-        self.label1.setGeometry(QtCore.QRect(20, 10, 451, 451))
-        pixmap = QPixmap('1stimage.jpg')
-        self.label1.setPixmap(pixmap)
-        self.label2 =QtGui.QLabel(self)
-        self.label2.setFrameShape(QtGui.QFrame.Box)
-        self.label2.setGeometry(QtCore.QRect(481, 10, 451, 451))
-        btn = QtGui.QPushButton('Browse', self)
-        btn.resize(btn.sizeHint())
-        btn.clicked.connect(self.browse)
-        btn.move(775, 500)
-        self.show()
+       # input_str = input("Please Input the Name of the Emoji you want to see:)) \n To Finish Process type 'finish' ")
 
-    def browse(self):
-        filePath = QtGui.QFileDialog.getOpenFileName(self, 'a file','*.jpg')
-        fileHandle = open(filePath, 'r')
-        pixmap = QPixmap('filePath')
-        self.label1.setPixmap(pixmap)
-        print("Whoa awesome")
+        #input_str = input("Please Input the Name of the Emoji you want to see:))")
 
 
+        for i in range(2):
+            input_str = input("Please Input the Name of the Emoji you want to see:))")
+            if input_str == "poop":
+                poop = QPixmap('poop.png')
+                poop_label.setPixmap(poop)
 
-def main():
-    app = QtGui.QApplication(sys.argv)
-    w = GuiCakep()
-    app.exec_()
+            elif input_str == "smiley":
+                poop = QPixmap('smiley.png')
+                poop_label.setPixmap(poop)
+            self.resize(poop.width(), poop.height())
+            self.show()
+
+      """  elif input_str == "smirk":
+            smirk = QPixmap('smirk.png')
+            poop_label.setPixmap(smirk)
+            self.resize(smirk.width(), smirk.height())
+            self.show()
+
+        elif input_str == "surprised":
+            surprised = QPixmap('surprised.png')
+            poop_label.setPixmap(surprised)
+            self.resize(surprised.width(), surprised.height())
+            self.show()
+        elif input_str == "heart_eyes":
+            heart_eyes = QPixmap('heart_eyes.png')
+            poop_label.setPixmap(heart_eyes)
+            self.resize(heart_eyes.width(), heart_eyes.height())
+            self.show()
+        elif input_str == "crying":
+            crying = QPixmap('crying.png')
+            poop_label.setPixmap(crying)
+            self.resize(crying.width(), crying.height())
+            self.show()
+
+
+"""
 
 
 if __name__ == '__main__':
-    main()
+    app = QApplication(sys.argv)
+    ex = Emojis()
+    sys.exit(app.exec_())

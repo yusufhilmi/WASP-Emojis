@@ -9,8 +9,10 @@ import sys
 
 def demo(screen):
     scenes = []
+
+
     effects = [
-        Print(screen, ImageFile("tenor.gif", screen.height - 2, colours=screen.colours),
+        Print(screen, ImageFile("sad.jpg", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
     ]
@@ -20,7 +22,7 @@ def demo(screen):
 
     effects = [
         Print(screen,
-              ColourImageFile(screen, "tenor.gif", screen.height-2,
+              ColourImageFile(screen, "sad.jpg", screen.height-2,
                               uni=screen.unicode_aware,
                               dither=screen.unicode_aware),
               0,
@@ -37,7 +39,7 @@ def demo(screen):
 
     effects = [
         Print(screen,
-              ColourImageFile(screen, "smiley.png", screen.height,
+              ColourImageFile(screen, "sad.jpg", screen.height,
                               uni=screen.unicode_aware),
               screen.height,
               speed=1,
@@ -50,7 +52,7 @@ def demo(screen):
 
     effects = [
         BannerText(screen,
-                   ColourImageFile(screen, "smirk.png", screen.height-2,
+                   ColourImageFile(screen, "sad.jpg", screen.height-2,
                                    uni=screen.unicode_aware, dither=screen.unicode_aware),
                    0, 0),
     ]

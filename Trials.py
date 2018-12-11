@@ -1,68 +1,35 @@
+from __future__ import division
+from asciimatics.effects import Wipe, Print
+from asciimatics.renderers import FigletText, SpeechBubble
+from asciimatics.scene import Scene
+from asciimatics.screen import Screen
+from asciimatics.exceptions import ResizeScreenError
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel
-from PyQt5.QtGui import QIcon, QPixmap
 
 
-class Emojis(QWidget):
+def demo(screen):
+    scenes = []
 
-    def __init__(self):
-        super().__init__()
-        self.title = 'PyQt5 image - pythonspot.com'
-        self.left = 50
-        self.top = 50
-        self.width = 640
-        self.height = 480
-        self.initUI()
+    effects = [
+        Wipe(screen, bg=Screen.COLOUR_RED, stop_frame=screen.height * 2 + 30),
+        Print(screen, FigletText("WOLOOLO", "epic"), screen.height // 2 - 4,
+              colour=7 - Screen.COLOUR_RED,
+              bg=Screen.COLOUR_RED,
+              start_frame=screen.height * 2),
+        Print(screen,
+              SpeechBubble("Testing background colours - press X to exit"),
+              screen.height-5,
+              speed=1, transparent=False)
+    ]
+    scenes.append(Scene(effects, 0, clear=False))
 
-    def initUI(self):
-        self.setWindowTitle(self.title)
-        self.setGeometry(self.left, self.top, self.width, self.height)
-        poop_label = QLabel(self)
-
-       # input_str = input("Please Input the Name of the Emoji you want to see:)) \n To Finish Process type 'finish' ")
-
-        #input_str = input("Please Input the Name of the Emoji you want to see:))")
+    screen.play(scenes, stop_on_resize=True)
 
 
-        for i in range(2):
-            input_str = input("Please Input the Name of the Emoji you want to see:))")
-            if input_str == "poop":
-                poop = QPixmap('poop.png')
-                poop_label.setPixmap(poop)
-
-            elif input_str == "smiley":
-                poop = QPixmap('smiley.png')
-                poop_label.setPixmap(poop)
-            self.resize(poop.width(), poop.height())
-            self.show()
-
-      """  elif input_str == "smirk":
-            smirk = QPixmap('smirk.png')
-            poop_label.setPixmap(smirk)
-            self.resize(smirk.width(), smirk.height())
-            self.show()
-
-        elif input_str == "surprised":
-            surprised = QPixmap('surprised.png')
-            poop_label.setPixmap(surprised)
-            self.resize(surprised.width(), surprised.height())
-            self.show()
-        elif input_str == "heart_eyes":
-            heart_eyes = QPixmap('heart_eyes.png')
-            poop_label.setPixmap(heart_eyes)
-            self.resize(heart_eyes.width(), heart_eyes.height())
-            self.show()
-        elif input_str == "crying":
-            crying = QPixmap('crying.png')
-            poop_label.setPixmap(crying)
-            self.resize(crying.width(), crying.height())
-            self.show()
-
-
-"""
-
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    ex = Emojis()
-    sys.exit(app.exec_())
+if __name__ == "__main__":
+    while True:
+        try:
+            Screen.wrapper(demo)
+            sys.exit(0)
+        except ResizeScreenError:
+            pass

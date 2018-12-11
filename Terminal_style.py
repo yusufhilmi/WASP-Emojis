@@ -1,63 +1,65 @@
 from __future__ import division
-from asciimatics.effects import BannerText, Print, Scroll
+from asciimatics.effects import Print
 from asciimatics.renderers import ColourImageFile, FigletText, ImageFile
 from asciimatics.scene import Scene
+from asciimatics.event import KeyboardEvent
 from asciimatics.screen import Screen
 from asciimatics.exceptions import ResizeScreenError
+from asciimatics.paths import DynamicPath
+
 import sys
+
+class KeyboardController(DynamicPath):
+    def process_event(self, event):
+        if isinstance(event, KeyboardEvent):
+            key = event.key_code
+            if key == Screen.KEY_UP:
+                self._y -= 1
+                self._y = max(self._y, 2)
+            elif key == Screen.KEY_DOWN:
+                self._y += 1
+                self._y = min(self._y, self._screen.height-2)
+            elif key == Screen.KEY_LEFT:
+                self._x -= 1
+                self._x = max(self._x, 3)
+            elif key == Screen.KEY_RIGHT:
+                self._x += 1
+                self._x = min(self._x, self._screen.width-3)
+            else:
+                return event
+        else:
+            return event
 
 
 def demo(screen):
+
     scenes = []
-
-
-    effects = [
-        Print(screen, ImageFile("sad.jpg", screen.height - 2, colours=screen.colours),
-              0,
-              stop_frame=100),
-    ]
-    scenes.append(Scene(effects))
-
-
-
     effects = [
         Print(screen,
-              ColourImageFile(screen, "sad.jpg", screen.height-2,
+              ColourImageFile(screen, "colour_globe.gif", screen.height - 2,
                               uni=screen.unicode_aware,
                               dither=screen.unicode_aware),
               0,
               stop_frame=200),
         Print(screen,
-              FigletText("",
-                         font='banner3' if screen.width > 80 else 'banner'),
-              screen.height//2-3,
+              FigletText("WASP",
+                         font='epic' if screen.width > 80 else 'banner'),
+              screen.height // 2 - 3,
               colour=7, bg=7 if screen.unicode_aware else 0),
     ]
     scenes.append(Scene(effects))
+    def process_event(self, event):
+        if isinstance(event, KeyboardEvent):
+            key = event.key_code
+            if key == Screen.KEY_UP:
+        return event
 
-
-
-    effects = [
-        Print(screen,
-              ColourImageFile(screen, "sad.jpg", screen.height,
-                              uni=screen.unicode_aware),
-              screen.height,
-              speed=1,
-              stop_frame=(40+screen.height)*3),
-        Scroll(screen, 3)
-    ]
-    scenes.append(Scene(effects))
-
-
-
-    effects = [
-        BannerText(screen,
-                   ColourImageFile(screen, "sad.jpg", screen.height-2,
-                                   uni=screen.unicode_aware, dither=screen.unicode_aware),
-                   0, 0),
-    ]
-    scenes.append(Scene(effects))
-
+        effects = [
+            Print(screen, ImageFile("sad_to_happy.gif", screen.height - 2, colours=screen.colours),
+                  0,
+                  stop_frame=100),
+        ]
+        scenes.append(Scene(effects))
     screen.play(scenes, stop_on_resize=True)
 
 
@@ -68,3 +70,21 @@ if __name__ == "__main__":
             sys.exit(0)
         except ResizeScreenError:
             pass
+"""  effects = [
+        Print(screen,
+              ColourImageFile(screen, "sad.jpg", screen.height,
+                              uni=screen.unicode_aware),
+              screen.height,
+              speed=1,
+              stop_frame=(40+screen.height)*3),
+        Scroll(screen, 3)
+    ]
+    scenes.append(Scene(effects))
+    effects = [
+        BannerText(screen,
+                   ColourImageFile(screen, "sad.jpg", screen.height-2,
+                                   uni=screen.unicode_aware, dither=screen.unicode_aware),
+                   0, 0),
+    ]
+    scenes.append(Scene(effects))
+"""

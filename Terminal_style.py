@@ -36,7 +36,7 @@ def demo(screen):
     scenes = []
     effects = [
         Print(screen,
-              ColourImageFile(screen, "colour_globe.gif", screen.height - 2,
+              ColourImageFile(screen, "tenor.gif", screen.height - 2,
                               uni=screen.unicode_aware,
                               dither=screen.unicode_aware),
               0,
@@ -48,18 +48,41 @@ def demo(screen):
               colour=7, bg=7 if screen.unicode_aware else 0),
     ]
     scenes.append(Scene(effects))
-    def process_event(self, event):
-        if isinstance(event, KeyboardEvent):
-            key = event.key_code
-            if key == Screen.KEY_UP:
-        return event
+    effects = [
+        Print(screen, ImageFile("sad_to_happy.gif", screen.height - 2, colours=screen.colours),
+              0,
+              stop_frame=100),
+    ]
+    scenes.append(Scene(effects))
 
-        effects = [
-            Print(screen, ImageFile("sad_to_happy.gif", screen.height - 2, colours=screen.colours),
-                  0,
-                  stop_frame=100),
-        ]
-        scenes.append(Scene(effects))
+    effects = [
+        Print(screen, ImageFile("sad.jpg", screen.height - 2, colours=screen.colours),
+              0,
+              stop_frame=100),
+    ]
+    scenes.append(Scene(effects))
+
+    effects = [
+        Print(screen, ImageFile("neutral.jpg", screen.height - 2, colours=screen.colours),
+              0,
+              stop_frame=100),
+    ]
+    scenes.append(Scene(effects))
+
+    effects = [
+        Print(screen, ImageFile("smile.jpg", screen.height - 2, colours=screen.colours),
+              0,
+              stop_frame=100),
+    ]
+    scenes.append(Scene(effects))
+
+    effects = [
+        Print(screen, ImageFile("smiling.jpg", screen.height - 2, colours=screen.colours),
+              0,
+              stop_frame=100),
+    ]
+    scenes.append(Scene(effects))
+
     screen.play(scenes, stop_on_resize=True)
 
 
@@ -70,6 +93,7 @@ if __name__ == "__main__":
             sys.exit(0)
         except ResizeScreenError:
             pass
+
 """  effects = [
         Print(screen,
               ColourImageFile(screen, "sad.jpg", screen.height,

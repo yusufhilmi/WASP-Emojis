@@ -1,14 +1,14 @@
 from __future__ import division
 from asciimatics.effects import Print
-from asciimatics.renderers import ColourImageFile, FigletText, ImageFile
+from asciimatics.renderers import ColourImageFile, FigletText, ImageFile, SpeechBubble
 from asciimatics.scene import Scene
 from asciimatics.event import KeyboardEvent
 from asciimatics.screen import Screen
 from asciimatics.exceptions import ResizeScreenError
 from asciimatics.paths import DynamicPath
-
 import sys
 
+"""
 class KeyboardController(DynamicPath):
     def process_event(self, event):
         if isinstance(event, KeyboardEvent):
@@ -29,7 +29,7 @@ class KeyboardController(DynamicPath):
                 return event
         else:
             return event
-
+"""
 
 def demo(screen):
 
@@ -46,8 +46,19 @@ def demo(screen):
                          font='epic' if screen.width > 80 else 'banner'),
               screen.height // 2 - 3,
               colour=7, bg=7 if screen.unicode_aware else 0),
+        Print(screen,
+              SpeechBubble("press <Space> to continue "),
+              screen.height - 5,
+              speed=1, transparent=False)
     ]
     scenes.append(Scene(effects))
+    effects = [
+        Print(screen, ImageFile("love.gif", screen.height - 2, colours=screen.colours),
+              0,
+              stop_frame=100),
+    ]
+    scenes.append(Scene(effects))
+
     effects = [
         Print(screen, ImageFile("sad_to_happy.gif", screen.height - 2, colours=screen.colours),
               0,
@@ -80,6 +91,32 @@ def demo(screen):
         Print(screen, ImageFile("smiling.jpg", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
+    ]
+    scenes.append(Scene(effects))
+
+    effects = [
+        Print(screen, ImageFile("broken_heart.jpg", screen.height - 2, colours=screen.colours),
+              0,
+              stop_frame=100),
+    ]
+    scenes.append(Scene(effects))
+
+    effects = [
+        Print(screen, ImageFile("heart.jpg", screen.height - 2, colours=screen.colours),
+              0,
+              stop_frame=100),
+    ]
+    scenes.append(Scene(effects))
+
+    effects = [
+        Print(screen, ColourImageFile(screen, "poop.jpg", screen.height - 2,
+                                      uni=screen.unicode_aware, dither=screen.unicode_aware),
+              0,
+              stop_frame=100),
+        Print(screen,
+              SpeechBubble("press <X> to exit "),
+              screen.height - 5,
+              speed=1, transparent=False)
     ]
     scenes.append(Scene(effects))
 

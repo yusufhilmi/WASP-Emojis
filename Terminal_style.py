@@ -36,7 +36,7 @@ def demo(screen):
     scenes = []
     effects = [
         Print(screen,
-              ColourImageFile(screen, "tenor.gif", screen.height - 2,
+              ColourImageFile(screen, ".\images\\tenor.gif", screen.height - 2,
                               uni=screen.unicode_aware,
                               dither=screen.unicode_aware),
               0,
@@ -53,63 +53,63 @@ def demo(screen):
     ]
     scenes.append(Scene(effects))
     effects = [
-        Print(screen, ImageFile("love.gif", screen.height - 2, colours=screen.colours),
+        Print(screen, ImageFile(".\images\love.gif", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
     ]
     scenes.append(Scene(effects))
 
     effects = [
-        Print(screen, ImageFile("sad_to_happy.gif", screen.height - 2, colours=screen.colours),
+        Print(screen, ImageFile(".\images\sad_to_happy.gif", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
     ]
     scenes.append(Scene(effects))
 
     effects = [
-        Print(screen, ImageFile("sad.jpg", screen.height - 2, colours=screen.colours),
+        Print(screen, ImageFile(".\images\sad.jpg", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
     ]
     scenes.append(Scene(effects))
 
     effects = [
-        Print(screen, ImageFile("neutral.jpg", screen.height - 2, colours=screen.colours),
+        Print(screen, ImageFile(".\images\\neutral.jpg", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
     ]
     scenes.append(Scene(effects))
 
     effects = [
-        Print(screen, ImageFile("smile.jpg", screen.height - 2, colours=screen.colours),
+        Print(screen, ImageFile(".\images\smile.jpg", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
     ]
     scenes.append(Scene(effects))
 
     effects = [
-        Print(screen, ImageFile("smiling.jpg", screen.height - 2, colours=screen.colours),
+        Print(screen, ImageFile(".\images\smiling.jpg", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
     ]
     scenes.append(Scene(effects))
 
     effects = [
-        Print(screen, ImageFile("broken_heart.jpg", screen.height - 2, colours=screen.colours),
+        Print(screen, ImageFile(".\images\\broken_heart.jpg", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
     ]
     scenes.append(Scene(effects))
 
     effects = [
-        Print(screen, ImageFile("heart.jpg", screen.height - 2, colours=screen.colours),
+        Print(screen, ImageFile(".\images\heart.jpg", screen.height - 2, colours=screen.colours),
               0,
               stop_frame=100),
     ]
     scenes.append(Scene(effects))
 
     effects = [
-        Print(screen, ColourImageFile(screen, "poop.jpg", screen.height - 2,
+        Print(screen, ColourImageFile(screen, ".\images\poop.jpg", screen.height - 2,
                                       uni=screen.unicode_aware, dither=screen.unicode_aware),
               0,
               stop_frame=100),
@@ -149,3 +149,4 @@ if __name__ == "__main__":
     ]
     scenes.append(Scene(effects))
 """
+#demo(screen)

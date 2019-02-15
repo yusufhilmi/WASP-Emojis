@@ -1,6 +1,6 @@
 from __future__ import division
 from asciimatics.effects import Print
-from asciimatics.renderers import FigletText
+from asciimatics.renderers import FigletText, ImageFile
 from asciimatics.scene import Scene
 from asciimatics.screen import Screen
 from asciimatics.exceptions import ResizeScreenError
@@ -11,6 +11,9 @@ def demo(screen):
     scenes = []
 
     effects = [
+        Print(screen, ImageFile(".\images\image.jpg", screen.height - 2, colours=screen.colours),
+              0,
+              stop_frame=100),
         Print(screen,
               FigletText("H E R M E S",
                          font='epic' if screen.width > 80 else 'banner'),

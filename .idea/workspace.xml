@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28e0b20e-043c-4f75-b699-717504450f71" name="Default" comment="" />
+    <list default="true" id="28e0b20e-043c-4f75-b699-717504450f71" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trials.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wasp-Emoji.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bnw.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/broken_heart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colour_globe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crying.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/globe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart_eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hermes_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/hermes_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/love.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/luv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neutral.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pacman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sad_to_happy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smiley.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smiling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smirk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/surprised.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tenor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trials1.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,25 +40,85 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WASP-emojis" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Wasp-Emoji.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Wasp-Emoji.py">
+      <file leaf-file-name="Terminal_style.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Terminal_style.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="119">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="42" selection-end-column="30" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trials.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trials.py">
+      <file leaf-file-name="sad_to_happy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sad_to_happy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="102">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sound.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sound.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thumbs_up.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thumbs_up.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hermes_text.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hermes_text.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="happy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/happy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -44,26 +135,45 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Trials.py" />
         <option value="$PROJECT_DIR$/Wasp-Emoji.py" />
+        <option value="$PROJECT_DIR$/Terminal style.py" />
+        <option value="$PROJECT_DIR$/trials1.py" />
+        <option value="$PROJECT_DIR$/3243214.py" />
+        <option value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/workin.py" />
+        <option value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2-yusufhilmi/trial.py" />
+        <option value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/repl_comments.py" />
+        <option value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2-yusufhilmi/workin.py" />
+        <option value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+        <option value="$PROJECT_DIR$/Trials.py" />
+        <option value="$PROJECT_DIR$/sad_to_happy.py" />
+        <option value="$PROJECT_DIR$/sad.py" />
+        <option value="$PROJECT_DIR$/Terminal_style.py" />
+        <option value="$PROJECT_DIR$/thumbs_up.py" />
+        <option value="$PROJECT_DIR$/sound.py" />
+        <option value="$PROJECT_DIR$/hello.py" />
+        <option value="$PROJECT_DIR$/happy.py" />
+        <option value="$PROJECT_DIR$/hermes_text.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="263" />
-    <option name="y" value="-19" />
-    <option name="width" value="830" />
-    <option name="height" value="646" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="823" />
+    <option name="height" value="711" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -89,8 +200,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Wasp-Emoji" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Terminal_style">
+    <configuration name="3243214" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WASP-emojis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,15 +213,98 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Wasp-Emoji.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3243214.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Terminal_style" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WASP-emojis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Terminal_style.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="bottle_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WASP-emojis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="repl_comments" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WASP-emojis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/repl_comments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="workin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WASP-emojis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/workin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.repl_comments" />
+      <item itemvalue="Python.3243214" />
+      <item itemvalue="Python.workin" />
+      <item itemvalue="Python.bottle_app" />
+      <item itemvalue="Python.Terminal_style" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Wasp-Emoji" />
+        <item itemvalue="Python.Terminal_style" />
+        <item itemvalue="Python.repl_comments" />
+        <item itemvalue="Python.bottle_app" />
+        <item itemvalue="Python.workin" />
+        <item itemvalue="Python.3243214" />
       </list>
     </recent_temporary>
   </component>
@@ -129,17 +323,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14732143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" weight="0.13318452" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067294" side_tool="true" weight="0.30988276" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998326" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27557755" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932706" weight="0.18976897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008375" side_tool="true" weight="0.12953368" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39865997" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -148,24 +343,48 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932706" weight="0.18976897" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.13318452" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39865997" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067294" side_tool="true" weight="0.30988276" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998326" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008375" side_tool="true" weight="0.12953368" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Wasp-Emoji.py">
+    <entry file="file://$PROJECT_DIR$/sad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        <state relative-caret-position="221">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trials.py">
+    <entry file="file://$PROJECT_DIR$/happy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="17">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -173,22 +392,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trials.py">
+    <entry file="file://$PROJECT_DIR$/hermes_text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="102">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wasp-Emoji.py">
+    <entry file="file://$PROJECT_DIR$/Terminal_style.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="2550">
+          <caret line="150" column="3" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="150" selection-end-column="3" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Terminal_style.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2-yusufhilmi/workin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2-yusufhilmi/workin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2-yusufhilmi/workin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/repl_comments.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/workin.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/repl_comments.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/workin.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/repl_comments.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/hash_password.py" />
+    <entry file="file://$PROJECT_DIR$/3243214.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/repl_comments.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/hash_password.py" />
+    <entry file="file://$PROJECT_DIR$/3243214.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/repl_comments.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/hash_password.py" />
+    <entry file="file://$PROJECT_DIR$/Wasp-Emoji.py" />
+    <entry file="file://$PROJECT_DIR$/trials1.py" />
+    <entry file="file://$PROJECT_DIR$/Trials.py" />
+    <entry file="file://$PROJECT_DIR$/Terminal_style.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trials1.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/hash_password.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/workin.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2-yusufhilmi/trial.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/repl_comments.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2/a2-yusufhilmi/bottle_app.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lesson Folders/1st Term/BLG103E/Assignment 2/a2-yusufhilmi/workin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/y1pv4ypy74442.jpg" />
+    <entry file="file://$PROJECT_DIR$/Trials.py" />
+    <entry file="file://$PROJECT_DIR$/Wasp-Emoji.py" />
+    <entry file="file://$PROJECT_DIR$/3243214.py" />
+    <entry file="file://$PROJECT_DIR$/sad_to_happy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thumbs_up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Terminal_style.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/happy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
